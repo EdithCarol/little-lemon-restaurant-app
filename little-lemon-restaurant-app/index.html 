@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Lemon - Reserva una Mesa</title>
+    <!-- Paso 1: Añadir la descripción adecuada (metaetiqueta) -->
+    <meta name="description" content="¡Bienvenido a Little Lemon! Reserva una mesa y disfruta de nuestra deliciosa comida.">
+    
+    <!-- Paso 2: Añadir la metaetiqueta og:title -->
+    <meta property="og:title" content="Little Lemon - Reserva una Mesa"/>
+
+    <!-- Paso 3: Añadir la metaetiqueta og:description -->
+    <meta property="og:description" content="¡Bienvenido a Little Lemon! Reserva una mesa y disfruta de nuestra deliciosa comida." />
+
+    <!-- Paso 4: Añadir la metaetiqueta og:image -->
+    <meta property="og:image" content="url-de-tu-imagen.jpg" />
+
+    <!-- Otros metadatos necesarios -->
+    <meta name="keywords" content="restaurante, comida, reserva, mesa, Little Lemon">
+    <meta name="author" content="Tu Nombre">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Contenido de tu página -->
+    <header>
+        <h1>Reserva una Mesa en Little Lemon</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="/menu">Menú</a></li>
+            <li><a href="/reservas">Reservas</a></li>
+            <li><a href="/contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>¡Haz tu reserva ahora!</h2>
+        <p>Selecciona una fecha y hora para reservar tu mesa en Little Lemon.</p>
+    </main>
+    <footer>
+        <p>Contáctanos: info@littlelemon.com</p>
+    </footer>
+</body>
+</html>
