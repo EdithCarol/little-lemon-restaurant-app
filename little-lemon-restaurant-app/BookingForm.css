@@ -1,0 +1,49 @@
+:root {
+  --primary-color: #f8d800;
+  --hover-color: #e0c200;
+  --border-color: #ccc;
+  --text-color: #333;
+}
+
+.booking-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.booking-form label {
+  font-weight: bold;
+}
+
+.booking-form input[type="date"],
+.booking-form select,
+.booking-form input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.booking-form input[type="date"]:focus,
+.booking-form select:focus,
+.booking-form input[type="number"]:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.booking-form input[type="submit"] {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.booking-form input[type="submit"]:hover,
+.booking-form input[type="submit"]:focus {
+  background-color: var(--hover-color);
+}

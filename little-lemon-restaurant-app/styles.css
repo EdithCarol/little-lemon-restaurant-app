@@ -1,0 +1,69 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+  display: flex; /* Utilizamos Flexbox para el diseño */
+  flex-wrap: wrap; /* Permitimos que los elementos se envuelvan en múltiples líneas si no caben en una sola fila */
+  justify-content: space-between; /* Distribuimos los elementos de manera uniforme a lo largo del contenedor */
+}
+
+/* Estilos para los elementos hijos */
+.elemento {
+  width: calc(33.33% - 20px); /* Ajustamos el ancho de cada elemento, teniendo en cuenta el espacio entre ellos */
+  margin-bottom: 20px; /* Espacio entre los elementos en la misma columna */
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media (max-width: 767px) {
+  .elemento {
+    width: calc(50% - 20px); /* Cambiamos el ancho de los elementos para adaptarse a pantallas más pequeñas */
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  footer {
+    padding: 10px;
+  }
+}

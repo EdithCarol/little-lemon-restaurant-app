@@ -1,0 +1,70 @@
+/* Encabezado */
+.header {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Navegación */
+.nav {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.nav ul li {
+  margin-right: 10px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Contenido Principal */
+.main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #1220a0;
+  border-radius: 0.75rem;
+}
+
+.main h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #1220a0;
+}
+
+.main p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #1220a0;
+}
+
+/* Pie de Página */
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  color: #333;
+}

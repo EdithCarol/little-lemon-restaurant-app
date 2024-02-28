@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Reserva una mesa en Little Lemon" />
+    <meta name="keywords" content="Little Lemon, Reserva, Mesa" />
+    <meta name="author" content="Tu nombre" />
+    <title>Little Lemon - Reserva una Mesa</title>
+    <link rel="icon" href="ruta-del-archivo/favicon.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>Reserva una Mesa en Little Lemon</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/menu">Menú</a></li>
+        <li><a href="/reservas">Reservas</a></li>
+        <li><a href="/contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div>
+        <h2>¡Haz tu reserva ahora!</h2>
+        <p>
+          Selecciona una fecha y hora para reservar tu mesa en Little Lemon.
+        </p>
+      </div>
+    </main>
+    <footer>
+      <p>Contáctanos: info@littlelemon.com</p>
+    </footer>
+    <script src="https://raw.githubusercontent.com/Meta-Front-End-Developer-PC/capstone/master/api.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

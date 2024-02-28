@@ -1,21 +1,22 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
+function NavItem({ to, children }) {
+  return (
+    <li>
+      <Link to={to}>{children}</Link>
+    </li>
+  );
+}
 
 function Nav() {
   return (
     <nav>
       <ul>
-        <li>
-          <a href="/">Inicio</a>
-        </li>
-        <li>
-          <a href="/menu">Menú</a>
-        </li>
-        <li>
-          <a href="/reservas">Reservas</a>
-        </li>
-        <li>
-          <a href="/contacto">Contacto</a>
-        </li>
+        <NavItem to="/">Inicio</NavItem>
+        <NavItem to="/menu">Menú</NavItem>
+        <NavItem to="/reservas">Reservas</NavItem>
+        <NavItem to="/contacto">Contacto</NavItem>
       </ul>
     </nav>
   );
